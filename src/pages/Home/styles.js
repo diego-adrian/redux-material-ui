@@ -14,7 +14,7 @@ export default makeStyles({
   },
   cardContainer: {
     flexDirection: 'column',
-    width: 400,
+    width: 450,
     height: 200,
     padding: '2rem',
     ...centeredStyleObj
@@ -34,5 +34,8 @@ export default makeStyles({
   buttonsContainer: {
     marginTop: '.5rem',
     ...centeredStyleObj
+  },
+  movieIcon: {
+    fontSize: '4rem'
   }
 });
